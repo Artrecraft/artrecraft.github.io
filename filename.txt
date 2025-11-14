@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Recraft</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #bfa77d, #fff);
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #bfa77d;
+            text-align: center;
+        }
+        .services, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            flex: 1 1 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #bfa77d;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        a {
+            color: #bfa77d;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Art Recraft</h1>
+    <p>نحن مختصون بإتقان تحويل أي عمل بسيط إلى تحفة فنية</p>
+    <p>We specialize in transforming simple work into artistic masterpieces</p>
+</header>
+
+<section>
+    <h2>خدماتنا / Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>الديكور / Decor</h3>
+            <p>خدمة عالية المستوى في جميع أعمال الديكور</p>
+            <p>High-quality services in all decor works</p>
+        </div>
+        <div class="card">
+            <h3>الدهانات / Painting</h3>
+            <p>تنفيذ دهانات مميزة لجميع المساحات</p>
+            <p>Professional painting for all spaces</p>
+        </div>
+        <div class="card">
+            <h3>النجارة / Carpentry</h3>
+            <p>تصنيع جميع الأعمال الخشبية حسب مقاس الزبون</p>
+            <p>Custom carpentry to your specifications</p>
+        </div>
+        <div class="card">
+            <h3>المطابخ والحمامات / Kitchens & Bathrooms</h3>
+            <p>تصميم وتنفيذ المطابخ والحمامات بجودة عالية</p>
+            <p>High-quality kitchen and bathroom design & execution</p>
+        </div>
+        <div class="card">
+            <h3>الأرضيات والحدائق / Flooring & Gardens</h3>
+            <p>خدمة كاملة للأرضيات والحدائق</p>
+            <p>Complete flooring and garden services</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>تواصل معنا / Contact Us</h2>
+    <div class="contact">
+        <div class="card">
+            <h3>الهاتف / Phone</h3>
+            <p>+44 1234 567890</p>
+        </div>
+        <div class="card">
+            <h3>واتساب / WhatsApp</h3>
+            <p>+44 1234 567890</p>
+        </div>
+        <div class="card">
+            <h3>البريد الإلكتروني / Email</h3>
+            <p>info@artrecraft.com</p>
+        </div>
+        <div class="card">
+            <h3>إنستغرام / Instagram</h3>
+            <p><a href="#">@artrecraft</a></p>
+        </div>
+        <div class="card">
+            <h3>فيسبوك / Facebook</h3>
+            <p><a href="#">Art Recraft</a></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 Art Recraft. جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
