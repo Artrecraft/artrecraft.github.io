@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ArtReCraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ArtReCraft</h1>
+    <nav>
+      <a href="/">Home</a> • <a href="/about.html">About</a> • <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>Short intro about your site or art.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Featured Work</h2>
+      <img src="images/sample1.jpg" alt="Sample 1" style="max-width:200px;">
+      <!-- add your images in repo/images/ -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> ArtReCraft</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
